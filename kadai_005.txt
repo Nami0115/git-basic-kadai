@@ -1,0 +1,55 @@
+n.okazawa@enuOkazawanoMacBook-Air git_tutorial % 
+cd /Users/n.okazawa/Desktop/git_challenge
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+git init git_challenge
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /Users/n.okazawa/Desktop/git_challenge/git_challenge/.git/
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+git add /Users/n.okazawa/Desktop/git_challenge
+fatal: not a git repository (or any of the parent directories): .git
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+git add /Users/n.okazawa/Desktop/git_challenge/git_challenge
+fatal: not a git repository (or any of the parent directories): .git
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+git /Users/n.okazawa/Desktop/git_challenge/git_challenge/hello_world.txt
+git: '/Users/n.okazawa/Desktop/git_challenge/git_challenge/hello_world.txt' is not a git command. See 'git --help'.
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+git add /Users/n.okazawa/Desktop/git_challenge/git_challenge/hello_world.txt
+fatal: not a git repository (or any of the parent directories): .git
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+cd /Users/n.okazawa/Desktop/git_challenge/git_challenge                
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+git add /Users/n.okazawa/Desktop/git_challenge/git_challenge/hello_world.txt
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+git commit -m "1回目のコミット"
+[master (root-commit) 1fc7b61] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+git add /Users/n.okazawa/Desktop/git_challenge/git_challenge/hello_world.txt
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+git commit -m "2回目のコミット"
+[master 159a311] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
+git log
+commit 159a311bf1fcecd5be490be17efc7fcd15a81994 (HEAD -> master)
+Author: Nami0115 <lifeihave156@gmail.com>
+Date:   Sun Jun 30 11:03:44 2024 +0900
+
+    2回目のコミット
+
+commit 1fc7b61ef355a041818c195a48ed6d8963346ece
+Author: Nami0115 <lifeihave156@gmail.com>
+Date:   Sun Jun 30 11:02:41 2024 +0900
+
+    1回目のコミットgit
