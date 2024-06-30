@@ -41,15 +41,6 @@ git commit -m "2回目のコミット"
 [master 159a311] 2回目のコミット
  1 file changed, 2 insertions(+), 1 deletion(-)
 n.okazawa@enuOkazawanoMacBook-Air git_challenge % 
-git log
-commit 159a311bf1fcecd5be490be17efc7fcd15a81994 (HEAD -> master)
-Author: Nami0115 <lifeihave156@gmail.com>
-Date:   Sun Jun 30 11:03:44 2024 +0900
-
-    2回目のコミット
-
-commit 1fc7b61ef355a041818c195a48ed6d8963346ece
-Author: Nami0115 <lifeihave156@gmail.com>
-Date:   Sun Jun 30 11:02:41 2024 +0900
-
-    1回目のコミットgit
+git log --oneline
+159a311 (HEAD -> master) 2回目のコミット
+1fc7b61 1回目のコミット
